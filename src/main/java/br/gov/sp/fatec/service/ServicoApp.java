@@ -4,6 +4,7 @@ import br.gov.sp.fatec.entities.Categoria;
 import br.gov.sp.fatec.entities.Livro;
 import br.gov.sp.fatec.repository.RepoCategoria;
 import br.gov.sp.fatec.repository.RepoLivro;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -15,15 +16,23 @@ import java.util.Set;
 @Service("servicoApp")
 public class ServicoApp {
 
-    private ClassPathXmlApplicationContext context =
-            new ClassPathXmlApplicationContext(	"applicationContext.xml");
-    private RepoCategoria repoCategoria = (RepoCategoria) context.getBean("repoCategoria");
-    private RepoLivro repoLivro = (RepoLivro) context.getBean("repoLivro");
+    // private ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(	"applicationContext.xml");
+    private final RepoCategoria repoCategoria;
+    //  = (RepoCategoria) context.getBean("repoCategoria");
+    private final RepoLivro repoLivro;
+    //  = (RepoLivro) context.getBean("repoLivro")
     private Categoria categ;
+
+    @Autowired
+    public ServicoApp(RepoCategoria repoCategoria, RepoLivro repoLivro) {
+        this.repoCategoria = repoCategoria;
+        this.repoLivro = repoLivro;
+    }
 
     @Transactional
     public void InserirLivrosPorCategoria(String cat, String[] lista){
         categ = repoCategoria.findOneByNomeContains(cat);
+        // categ = repoCategoria.findOneByNomeContains(cat);
         Set bookAs = new HashSet<Livro>(){{
             for (String aLista : lista) {
                 add(new Livro(aLista, categ));

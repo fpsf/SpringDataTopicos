@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eace1d1c-a3f0-4a84-9faf-f53edf7d5767" name="Default" comment="" />
+    <list default="true" id="eace1d1c-a3f0-4a84-9faf-f53edf7d5767" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/br/gov/sp/fatec/service/ServicoApp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/br/gov/sp/fatec/service/ServicoApp$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/br/gov/sp/fatec/service/ServicoApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/br/gov/sp/fatec/service/ServicoApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/br/gov/sp/fatec/Testes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/br/gov/sp/fatec/Testes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/service/ServicoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/service/ServicoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/gov/sp/fatec/Testes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/gov/sp/fatec/Testes.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -53,7 +60,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
+            <state relative-caret-position="240">
               <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
             </state>
           </provider>
@@ -71,8 +78,49 @@
       <file leaf-file-name="Testes.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/gov/sp/fatec/Testes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="46" column="36" lean-forward="true" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+            <state relative-caret-position="225">
+              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RepoCategoria.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/repository/RepoCategoria.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Categoria.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/entities/Categoria.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServicoApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/service/ServicoApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Livro.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/entities/Livro.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -106,6 +154,9 @@
       <replace>categoriaid</replace>
       <replace>nome</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -497,9 +548,9 @@
         <option value="$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/repository/RepoCategoria.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/repository/RepoLivro.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/service/ServicoCategoria.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/service/ServicoApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/Main.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/service/ServicoApp.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/gov/sp/fatec/Testes.java" />
       </list>
     </option>
@@ -527,6 +578,7 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -619,7 +671,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -638,6 +689,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -650,20 +706,55 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Testes.repoInsercaoOk">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.gov.sp.fatec.Main" />
-      <module name="SDT_main" />
+  <component name="RunManager" selected="JUnit.Testes">
+    <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Testes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SDT_test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.gov.sp.fatec.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="br.gov.sp.fatec" />
+      <option name="MAIN_CLASS_NAME" value="br.gov.sp.fatec.Testes" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="Testes.repoExclusaoOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SDT_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.gov.sp.fatec.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="br.gov.sp.fatec" />
+      <option name="MAIN_CLASS_NAME" value="br.gov.sp.fatec.Testes" />
+      <option name="METHOD_NAME" value="repoExclusaoOk" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="Testes.repoInsercaoOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SDT_test" />
@@ -688,6 +779,52 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="Testes.servicoDeletarOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SDT_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.gov.sp.fatec.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="br.gov.sp.fatec" />
+      <option name="MAIN_CLASS_NAME" value="br.gov.sp.fatec.Testes" />
+      <option name="METHOD_NAME" value="servicoDeletarOk" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Testes.servicoInserirEAcharOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SDT_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.gov.sp.fatec.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="br.gov.sp.fatec" />
+      <option name="MAIN_CLASS_NAME" value="br.gov.sp.fatec.Testes" />
+      <option name="METHOD_NAME" value="servicoInserirEAcharOk" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -703,16 +840,6 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
-    </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="SDT_main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.gov.sp.fatec.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="br.gov.sp.fatec.Application" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -737,15 +864,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.Testes.repoInsercaoOk" />
-      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="JUnit.Testes" />
+      <item itemvalue="JUnit.Testes.servicoInserirEAcharOk" />
+      <item itemvalue="JUnit.Testes.repoExclusaoOk" />
+      <item itemvalue="JUnit.Testes.servicoDeletarOk" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Testes" />
+        <item itemvalue="JUnit.Testes.servicoInserirEAcharOk" />
+        <item itemvalue="JUnit.Testes.repoExclusaoOk" />
+        <item itemvalue="JUnit.Testes.servicoDeletarOk" />
         <item itemvalue="JUnit.Testes.repoInsercaoOk" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Spring Boot.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -765,24 +896,58 @@
       <workItem from="1535631286015" duration="27312000" />
       <workItem from="1536337794708" duration="1277000" />
       <workItem from="1536574267169" duration="183000" />
+      <workItem from="1536585395713" duration="5565000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Testes_servicoInserirEAcharOk - 2018.09.10 at 11h 26m 57s.xml">
+      <configuration name="Testes.servicoInserirEAcharOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Testes_servicoInserirEAcharOk - 2018.09.10 at 11h 29m 00s.xml">
+      <configuration name="Testes.servicoInserirEAcharOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Testes_repoExclusaoOk - 2018.09.10 at 11h 30m 09s.xml">
+      <configuration name="Testes.repoExclusaoOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Testes_repoExclusaoOk - 2018.09.10 at 11h 30m 21s.xml">
+      <configuration name="Testes.repoExclusaoOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Testes_repoExclusaoOk - 2018.09.10 at 11h 30m 46s.xml">
+      <configuration name="Testes.repoExclusaoOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Testes_repoExclusaoOk - 2018.09.10 at 11h 30m 59s.xml">
+      <configuration name="Testes.repoExclusaoOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Testes_servicoInserirEAcharOk - 2018.09.10 at 11h 31m 38s.xml">
+      <configuration name="Testes.servicoInserirEAcharOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Testes_servicoInserirEAcharOk - 2018.09.10 at 11h 33m 46s.xml">
+      <configuration name="Testes.servicoInserirEAcharOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Testes_servicoInserirEAcharOk - 2018.09.10 at 11h 53m 46s.xml">
+      <configuration name="Testes.servicoInserirEAcharOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Testes - 2018.09.10 at 11h 53m 58s.xml">
+      <configuration name="Testes" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41913000" />
+    <option name="totallyTimeSpent" value="47478000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1374" height="748" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32919255" />
       <window_info anchor="right" id="Maven Projects" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.32919255" />
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32919255" />
@@ -797,12 +962,11 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39906833" />
-      <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.32919255" />
+      <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="8" weight="0.32919255" />
-      <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32919255" />
@@ -816,10 +980,24 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="16" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="91" selection-start-line="33" selection-start-column="91" selection-end-line="33" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/gov/sp/fatec/Testes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="46" column="36" lean-forward="true" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -968,36 +1146,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/repository/RepoCategoria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/notes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="59" lean-forward="true" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/entities/Livro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/entities/Categoria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1008,20 +1160,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/service/ServicoApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -1029,10 +1167,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/entities/Categoria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/entities/Livro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/service/ServicoApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/repository/RepoCategoria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/gov/sp/fatec/Testes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="46" column="36" lean-forward="true" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+        <state relative-caret-position="225">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
         </state>
       </provider>
     </entry>

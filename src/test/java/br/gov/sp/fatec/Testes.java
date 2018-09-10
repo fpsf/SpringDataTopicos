@@ -14,6 +14,8 @@ import java.util.List;
 
 import static junit.framework.TestCase.assertNotNull;
 import static junit.framework.TestCase.assertNull;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = {"classpath:applicationContext.xml"})
@@ -28,12 +30,6 @@ public class Testes {
     @Autowired
     private ServicoApp servicoApp;
 
-    /*
-    public void setRepoCategoria(RepoCategoria repo){
-        this.repoCategoria = repo;
-    }
-    */
-
     @Test
     public void repoInsercaoOk(){
         Categoria categ = new Categoria(catnome);
@@ -44,23 +40,29 @@ public class Testes {
     @Test
     public void repoExclusaoOk(){
         Categoria categ = new Categoria(catnome);
+        repoCategoria.save(categ);
         repoCategoria.delete(categ);
-        assertNull(categ.getNome());
+        categ = repoCategoria.findOneByNomeContains(catnome);
+        assertNull(categ);
     }
 
     // Insere livros e acha a categoria de determinado livro
     @Test
     public void servicoInserirEAcharOk(){
+        Categoria categ = new Categoria(catnome);
+        repoCategoria.save(categ);
         servicoApp.InserirLivrosPorCategoria(catnome, livros);
-        List<Categoria> categoriaList = servicoApp.CatPorLivro("Onepunchman");
+        List<Categoria> categoriaList = servicoApp.CatPorLivro(livros[1]);
         assertNotNull(categoriaList);
     }
 
     @Test
     public void servicoDeletarOk(){
+        Categoria categ = new Categoria(catnome);
+        repoCategoria.save(categ);
         servicoApp.DeletarTudo();
         List<Categoria> cats = repoCategoria.findAll();
-        assertNull(cats.get(0));
+        assertEquals(cats.size(), 0);
     }
 
 
